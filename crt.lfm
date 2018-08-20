@@ -11,12 +11,12 @@ object window: Twindow
   Constraints.MinHeight = 434
   Constraints.MinWidth = 700
   OnCreate = FormCreate
-  LCLVersion = '1.8.2.0'
+  LCLVersion = '1.8.4.0'
   object captionLabel1: TLabel
     Left = 184
-    Height = 92
+    Height = 89
     Top = 8
-    Width = 430
+    Width = 404
     Caption = 'PhilleConnect'
     Font.Height = -67
     ParentColor = False
@@ -9807,9 +9807,9 @@ object window: Twindow
   end
   object captionLabel2: TLabel
     Left = 184
-    Height = 55
+    Height = 54
     Top = 120
-    Width = 431
+    Width = 411
     Caption = 'Client Registration Tool'
     Font.Height = -40
     ParentColor = False
@@ -9822,11 +9822,11 @@ object window: Twindow
     Width = 328
     Caption = 'Zugangsdaten'
     ClientHeight = 92
-    ClientWidth = 326
+    ClientWidth = 324
     TabOrder = 0
     object uname: TEdit
       Left = 147
-      Height = 25
+      Height = 23
       Top = 32
       Width = 168
       ParentShowHint = False
@@ -9836,7 +9836,7 @@ object window: Twindow
     end
     object pw: TEdit
       Left = 147
-      Height = 25
+      Height = 23
       Top = 64
       Width = 168
       EchoMode = emPassword
@@ -9848,25 +9848,25 @@ object window: Twindow
     end
     object unameLabel: TLabel
       Left = 0
-      Height = 19
+      Height = 15
       Top = 36
-      Width = 84
+      Width = 68
       Caption = 'Nutzername:'
       ParentColor = False
     end
     object passwordLabel: TLabel
       Left = 0
-      Height = 19
+      Height = 15
       Top = 68
-      Width = 62
+      Width = 50
       Caption = 'Passwort:'
       ParentColor = False
     end
     object infoLabel1: TLabel
       Left = 0
-      Height = 19
+      Height = 15
       Top = 8
-      Width = 299
+      Width = 248
       Caption = 'Zugangsdaten für Admin-Interface verwenden!'
       ParentColor = False
     end
@@ -9878,7 +9878,7 @@ object window: Twindow
     Width = 328
     Caption = 'Registrieren'
     ClientHeight = 85
-    ClientWidth = 326
+    ClientWidth = 324
     TabOrder = 2
     object registerButton: TButton
       Left = 176
@@ -9900,17 +9900,17 @@ object window: Twindow
     end
     object registerLabel1: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 8
-      Width = 290
+      Width = 247
       Caption = '''Registrieren'' wird den Clienten in die Rechner-'
       ParentColor = False
     end
     object registerLabel2: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 24
-      Width = 149
+      Width = 123
       Caption = 'datenbank aufnehmen.'
       ParentColor = False
     end
@@ -9922,19 +9922,19 @@ object window: Twindow
     Width = 352
     Caption = 'Rechnerdaten'
     ClientHeight = 205
-    ClientWidth = 350
+    ClientWidth = 348
     TabOrder = 1
     object l1: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 4
-      Width = 96
+      Width = 83
       Caption = 'MAC-Addresse:'
       ParentColor = False
     end
     object macInput: TEdit
       Left = 128
-      Height = 25
+      Height = 23
       Top = 0
       Width = 216
       ReadOnly = True
@@ -9943,7 +9943,7 @@ object window: Twindow
     end
     object ipInput: TEdit
       Left = 128
-      Height = 25
+      Height = 23
       Top = 28
       Width = 216
       ReadOnly = True
@@ -9952,7 +9952,7 @@ object window: Twindow
     end
     object room: TEdit
       Left = 128
-      Height = 25
+      Height = 23
       Top = 88
       Width = 216
       ParentShowHint = False
@@ -9962,7 +9962,7 @@ object window: Twindow
     end
     object machineName: TEdit
       Left = 128
-      Height = 25
+      Height = 23
       Top = 120
       Width = 216
       ParentShowHint = False
@@ -9972,59 +9972,59 @@ object window: Twindow
     end
     object l2: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 32
-      Width = 80
+      Width = 66
       Caption = 'IP-Addresse:'
       ParentColor = False
     end
     object l3: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 92
-      Width = 41
+      Width = 34
       Caption = 'Raum:'
       ParentColor = False
     end
     object l4: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 124
-      Width = 93
+      Width = 76
       Caption = 'Rechnername:'
       ParentColor = False
     end
     object l5: TLabel
       Left = 8
-      Height = 19
+      Height = 15
       Top = 64
-      Width = 265
+      Width = 228
       Caption = 'Achtung: Groß-/Kleinschreibung beachten!'
       ParentColor = False
     end
     object teacher: TCheckBox
       Left = 128
-      Height = 21
+      Height = 19
       Top = 152
-      Width = 117
+      Width = 93
       Caption = 'Lehrerrechner'
       OnChange = teacherChange
       TabOrder = 4
     end
     object internet: TCheckBox
       Left = 128
-      Height = 21
+      Height = 19
       Top = 176
-      Width = 171
+      Width = 139
       Caption = 'Internet ohne Freigabe'
       TabOrder = 5
     end
   end
   object versionLabel: TLabel
     Left = 8
-    Height = 19
+    Height = 15
     Top = 416
-    Width = 367
+    Width = 315
     Caption = 'PhilleConnect ClientRegistrationTool macOS v0.1 Build Beta'
     ParentColor = False
   end

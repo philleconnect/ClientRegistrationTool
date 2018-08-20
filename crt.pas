@@ -74,18 +74,18 @@ var
   IPAddr: TGetIPAdress;
 begin
   version:='1.1.4';
-  build:='1B031';
+  //build:='1B031';
   {$IFDEF WIN32}
-    versionLabel.Caption:='PhilleConnect ClientRegistrationTool Win32 v'+version+' Build '+build+' by Johannes Kreutz';
+    versionLabel.Caption:='PhilleConnect ClientRegistrationTool Win32 v'+version+' by Johannes Kreutz';
   {$ENDIF}
   {$IFDEF WIN64}
-    versionLabel.Caption:='PhilleConnect ClientRegistrationTool Win64 v'+version+' Build '+build+' by Johannes Kreutz';
+    versionLabel.Caption:='PhilleConnect ClientRegistrationTool Win64 v'+version+' by Johannes Kreutz';
   {$ENDIF}
   {$IFDEF LINUX}
-    versionLabel.Caption:='PhilleConnect ClientRegistrationTool Linux v'+version+' Build '+build+' by Johannes Kreutz';
+    versionLabel.Caption:='PhilleConnect ClientRegistrationTool Linux v'+version+' by Johannes Kreutz';
   {$ENDIF}
   {$IFDEF DARWIN}
-    versionLabel.Caption:='PhilleConnect ClientRegistrationTool macOS v'+version+' Build '+build+' by Johannes Kreutz';
+    versionLabel.Caption:='PhilleConnect ClientRegistrationTool macOS v'+version+' by Johannes Kreutz';
   {$ENDIF}
   MacAddr:=TGetMacAdress.create;
   mac:=MacAddr.getMac;
