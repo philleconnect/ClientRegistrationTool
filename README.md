@@ -1,3 +1,5 @@
+__Archived: Not actively maintained anymore!__
+
 # ClientRegistrationTool
 This is an administration tool of PhilleConnect, made to integrate new machines into the system.
 
